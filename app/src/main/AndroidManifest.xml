@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.csutcc.Wannikinraidee">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".A00_FullOutPut.FullOutput"></activity>
+        <activity android:name="com.csutcc.Wannikinraidee.A0_Layout.LayoutWise" />
+        <activity
+            android:name="com.csutcc.Wannikinraidee.A015_PaymentMethod.PaymentMethod"
+            android:label="@string/title_activity_payment_method"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.csutcc.Wannikinraidee.A014_Review.Reviews"
+            android:label="@string/title_activity_reviews"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.csutcc.Wannikinraidee.A013_AllCategory.AllCategory"
+            android:label="@string/title_activity_all_category"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.csutcc.Wannikinraidee.A012_Profile.ProfileActivity" />
+        <activity
+            android:name="com.csutcc.Wannikinraidee.A011_Notification.Notification"
+            android:label="@string/title_activity_notification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.csutcc.Wannikinraidee.A010_Favorite.Favorite"
+            android:label="@string/title_activity_favorite"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.csutcc.Wannikinraidee.A09_OrderHistory.OrderHistory"
+            android:label="@string/title_activity_order_history"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.csutcc.Wannikinraidee.A08_BookTable.BookTable" />
+        <activity android:name="com.csutcc.Wannikinraidee.A07_RestaurantDetail.RestaurantDetailView" />
+        <activity
+            android:name="com.csutcc.Wannikinraidee.A06_RestaurantList.RestaurantListview"
+            android:label="@string/title_activity_restaurant_listview"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.csutcc.Wannikinraidee.A05_HomeCategory.HomeCategory"
+            android:label="@string/title_activity_restaurant_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.csutcc.Wannikinraidee.A04_Home.HomeMenu" />
+        <activity
+            android:name="com.csutcc.Wannikinraidee.A03_TabMenu.TabMenu"
+            android:label="@string/title_activity_tab_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.csutcc.Wannikinraidee.A02_SignupScreen.SignupScreen" />
+        <activity android:name=".A00_FullOutPut.RegisterScreen" />
+        <activity android:name="com.csutcc.Wannikinraidee.A01_SigninScreen.SigninScreen" />
+        <activity android:name="com.csutcc.Wannikinraidee.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDFNnP_L1EQ2Sd4QHSRFH6gfn_XnwoSwFw" />
+    </application>
+
+</manifest>

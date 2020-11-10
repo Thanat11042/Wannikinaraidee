@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    tools:context=".A04_Home.HomeMenu">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AE000000">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="25dp">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="70dp"
+        android:id="@+id/image_data"
+        android:layout_height="70dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="0"
+        android:src="@drawable/pic3"
+        app:civ_border="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi, Kanin"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What can we serve you today?"
+                android:textSize="45sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="110dp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="25dp"
+                android:drawableLeft="@drawable/ic_search"
+                android:drawableRight="@drawable/ic_location"
+                android:hint="ค้นหาร้านอาหาร"
+                android:maxEms="1"
+                android:maxLines="1"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColorHint="#8B8B8B"
+                android:background="@drawable/edit_back"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="30dp"/>
+
+
+            <Button
+                android:id="@+id/search_press"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="S E A R C H"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/roundcorner"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</RelativeLayout>
