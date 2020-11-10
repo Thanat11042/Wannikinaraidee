@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".A00_FullOutPut.FullOutput"></activity>
+        <!--activity android:name=".A00_FullOutPut.FullOutput"></activity-->
         <activity android:name="com.csutcc.Wannikinraidee.A0_Layout.LayoutWise" />
         <activity
             android:name="com.csutcc.Wannikinraidee.A015_PaymentMethod.PaymentMethod"
